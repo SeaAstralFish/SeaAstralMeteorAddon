@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "seaastral",
+  "version": "${version}",
+  "name": "SeaAstral",
+  "description": "An addon template for Meteor Client addons.",
+  "authors": [
+    "seasnail"
+  ],
+  "icon": "assets/seaastral/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.seaastral.addon.SeaAstral"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
