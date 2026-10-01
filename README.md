@@ -1,0 +1,2 @@
+# SeaAstralMeteorAddon
+MeteorAddon
