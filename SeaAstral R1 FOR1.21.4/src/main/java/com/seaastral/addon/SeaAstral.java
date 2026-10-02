@@ -1,5 +1,6 @@
 package com.seaastral.addon;
 import com.seaastral.addon.modules.BizarreTp;
+import com.seaastral.addon.modules.AutoEZ;
 import com.seaastral.addon.modules.MonsterKill;
 import com.seaastral.addon.modules.TpCrystal;
 import com.seaastral.addon.modules.AntiMiss;
@@ -33,6 +34,7 @@ public class SeaAstral extends MeteorAddon {
         Modules.get().add(new AntiMiss());
         Modules.get().add(new MonsterKill());
         Modules.get().add(new BizarreTp());
+        Modules.get().add(new AutoEZ());
         Commands.add(new TpCommand());
     }
 
