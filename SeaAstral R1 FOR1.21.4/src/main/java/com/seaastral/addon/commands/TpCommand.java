@@ -12,11 +12,9 @@ import net.minecraft.util.math.Vec3d;
 import com.mojang.brigadier.arguments.DoubleArgumentType;
 
 public class TpCommand extends Command {
-
     public TpCommand() {
         super("tp", "tpxyz");
     }
-
     @Override
     public void build(LiteralArgumentBuilder<CommandSource> builder) {
         builder.then(argument("x", DoubleArgumentType.doubleArg())

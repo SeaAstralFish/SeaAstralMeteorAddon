@@ -37,10 +37,6 @@ public class BizarreTp extends Module {
         .build()
     );
 
-    @Override
-    public void onDeactivate() {
-        zhongzhuan = null;
-    }
 
     private void checkBlock(Vec3d randomPos) {
         BlockPos pos1 = BlockPos.ofFloored(randomPos.x, randomPos.y, randomPos.z);
